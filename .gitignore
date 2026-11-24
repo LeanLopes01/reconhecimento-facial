@@ -1,0 +1,14 @@
+﻿__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+!.env.example
+.venv/
+face_env/
+face_database.db
+*.db
+# Manter a pasta database com fotos ignoradas por privacidade
+database/*
+!database/.gitkeep
+!database/pessoa_exemplo/
